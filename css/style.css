@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .menu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formulario {
+    font-size: small;
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(
+      to top,
+      rgba(53, 8, 136, 0.950),
+      rgba(92, 61, 153, 0.950),
+      rgba(12, 12, 12, 0.950)
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  
+  .titulo {
+    font-family: 'Silkscreen';
+    text-shadow: 2px 2px 3px white;
+    color: rgb(202, 58, 183);
+    font-size: 50px;
+    margin: 10px;
+  }
+  
+  #selecao {
+    background-color: rgba(0, 0, 0, 0.24);
+    color: rgba(202, 58, 183, 0.781);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-family: "Changa";
+    margin: 30px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  option {
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+   
+  #passo {
+    background-color: rgba(0, 0, 0, 0.24);
+    color: rgb(202, 58, 183);
+    font-family: "Changa";
+    display: none;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .mensagemRecebida64 {
+    color: rgb(82, 100, 255);
+    background-color: rgba(0, 0, 0, 0.300);
+    font-family: "Changa";
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .mensagemRecebidaCesar {
+    color: rgb(82, 100, 255);
+    background-color: rgba(0, 0, 0, 0.300);
+    font-family: "Changa";
+    display: none;
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #resultado64 {
+    color: rgb(255, 19, 224);
+    background-color: rgba(0, 0, 0, 0.300);
+    font-size: 100%;
+    padding: 20px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #resultadoCesar {
+    color: rgb(202, 58, 183);
+    background-color: rgba(0, 0, 0, 0.300);
+    font-size: 100%;
+    padding: 20px;
+    display: none;
+    margin: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #mensagens {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .rodape {
+    background: rgb(53, 8, 136);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+  }
+  .link {
+    color: rgba(202, 58, 183, 0.952);
+  }
+  .botao {
+    font-family: "Changa";
+    color: rgb(202, 58, 183);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  }
