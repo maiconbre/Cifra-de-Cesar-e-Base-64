@@ -40,8 +40,6 @@ function validandoPasso() {
       resultado.innerHTML = btoa(entrada);
     else resultado.innerHTML = atob(entrada);
   }
-  var cod = document.querySelector("#criptografar").value;
-  var dec = document.querySelector("#descriptografar").value;
   function codificacao() {
     var escolha = document.querySelector("#selecao");
     if (document.querySelector("#selecao").value == "cesar") {
