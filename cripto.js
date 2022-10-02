@@ -1,4 +1,11 @@
-function validandoPasso() {
+  function base64() {
+  var entrada = document.querySelector(".mensagemRecebida64").value;
+  var resultado = document.querySelector("#resultado64");
+  if (document.querySelector("#criptografar").checked)
+    resultado.innerHTML = btoa(entrada);
+  else resultado.innerHTML = atob(entrada);
+  }
+  function validandoPasso() {
     var passo = document.getElementById("passo").value;
     passo = passo % 26;
     if (document.querySelector("#descriptografar").checked) {
@@ -33,13 +40,8 @@ function validandoPasso() {
       resultado.innerHTML += String.fromCharCode(modificacao);
     }
   }
-  function base64() {
-    var entrada = document.querySelector(".mensagemRecebida64").value;
-    var resultado = document.querySelector("#resultado64");
-    if (document.querySelector("#criptografar").checked)
-      resultado.innerHTML = btoa(entrada);
-    else resultado.innerHTML = atob(entrada);
-  }
+
+  
   function codificacao() {
     var escolha = document.querySelector("#selecao");
     if (document.querySelector("#selecao").value == "cesar") {
