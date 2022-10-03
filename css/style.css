@@ -22,8 +22,8 @@
     height: 500px;
     background-image: linear-gradient(
       to top,
-      rgba(53, 8, 136, 0.950),
-      rgba(92, 61, 153, 0.950),
+      rgba(53, 8, 136, 0.95),
+      rgba(92, 61, 153, 0.95),
       rgba(16, 3, 39, 0.95)
     );
     display: flex;
@@ -138,3 +138,60 @@
     color: rgb(202, 58, 183);
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
   }
+  @media only screen and (max-width: 801px) {
+    .formulario {
+      width: 350px;
+      height: 450px;
+    }
+    .titulo {
+      font-size: 200%;
+    }
+    .mensagemRecebida64 {
+      width: 100%;
+    }
+   .mensagemRecebidaCesar {
+    width: 100%;
+    }
+    #resultadoCesar {
+      width: 100%;
+      height: 70%;
+    }
+    #resultado64 {
+      width: 100%;
+      height: 70%;
+    }
+    #passo {
+      font-size: 70%;
+      width: 80%;
+      margin-top: -15px;
+    }
+    #selecao {
+      width: 80%;
+      height: 30px;
+      font-size: 80%;
+      margin-bottom: px;
+    }
+  @media only screen and (max-width: 501px) {
+    .formulario {
+      width: 300px;
+      height: 400px;
+    }
+    .titulo {
+      font-size: 180%;
+    }
+    .mensagemRecebida64 {
+      width: 100%;
+    }
+   .mensagemRecebidaCesar {
+    width: 100%;
+    }
+    #selecao {
+      width: 80%;
+      font-size: 80%;
+    }
+    #passo {
+      width: 70%;
+      margin-top: -15px;
+    }
+  }
+}
