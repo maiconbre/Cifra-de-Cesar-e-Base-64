@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         body {
-            background: url(https://gifs.eco.br/wp-content/uploads/2021/09/gifs-de-anime-aesthetic-49.gif);
+            background: url(img/fundo.gif);
             background-size: 2050px;
         }
     </style>
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
 </head>
 <body>
-    <header class="cabecalho"></header>
-    <main class="menu">
+    <header class="cabecalho">
+    </header>
+    <!--Corpo da pagina-->
+    <main class="menu">        <!--Formulario-->
         <div class="formulario">
             <h1 class="titulo">Encryptor</h1>
-            <select name="" id="selecao" onchange="codificacao()">
+            <select name="" id="selecao" onchange="codificacao()">         <!--seleção do opção codificador usado-->
               <option value="" disabled selected>Escolha uma opção</option>
                <option id = "cesar" value="cesar">Cifra de Cesar</option>
                <option id = "base" value="64">Base 64</option>
@@ -29,7 +32,7 @@
               placeholder="Digite seu passo"
               />
             </select>
-            <div class="botao">
+            <div class="botao">         <!--Botões radio critografar e descriptografar-->
             <form>
                 <input
                  type="radio"
@@ -37,16 +40,18 @@
                  name="escolha"
                  checked="checked"
                  value="criptografar"
-                /> Criptografar
+                 /> 
+                 <label for="criptografar"> Criptografar</label>         <!--Tornar o texto clicável para atribuir o radio botton-->
                 <br><input
                  type="radio"
                  id="descriptografar"
                  name="escolha"
                  value="descriptografar"
-                /> Descriptografar
+                />
+                <label for="descriptografar"> Descriptografar</label>
             </form>
             </div>
-            <form id="mensagens">
+            <form id="mensagens">         <!--caixas de mensagem recebida e resultado-->
                 <input
                  class="mensagemRecebida64"
                  type="text"
@@ -74,7 +79,7 @@
             </form>
         </div>
     </main>
-    <footer class="rodape">
+    <footer class="rodape">         <!--rodapé da pagina-->
         <p>© 2022 Copyright - Todos os direitos reservados -   
             <a class="link" href="https://github.com/maiconbre">Maicon</a></p>
     </footer>
