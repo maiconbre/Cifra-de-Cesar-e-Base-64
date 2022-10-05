@@ -10,7 +10,7 @@
 > ✔️ Base 64
 
 
-##  Técnologias utilizadas 
+##  Tecnologias utilizadas 
 <div style="display: inline_block">
 <img align="center" src="https://user-images.githubusercontent.com/112555118/194056807-af3ed262-a645-469d-b540-1058230de05d.png" width="60"/>
 <img align="center" src="https://user-images.githubusercontent.com/112555118/194057036-c1432b2d-c994-4fed-aa1a-79fab5ed1b1d.png" width="60"/>
